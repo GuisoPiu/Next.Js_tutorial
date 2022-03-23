@@ -1,5 +1,7 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
+import { Navbar } from '../components/Navbar';
+import styles from '../styles/Home.module.css';
 
 export default function AboutPage() {
   return (
@@ -10,10 +12,14 @@ export default function AboutPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Navbar />
+
       <main className={styles.main}>
 
+        <h1>About Page</h1>
+
         <h1 className={styles.title}>
-         ir a <a href="/">Home</a>{' '}
+         ir a <Link href="/">Home</Link>{' '}
         </h1>
 
         <p className={styles.description}>

@@ -2,10 +2,10 @@
 import Link from 'next/link'
 import { MainLayout } from '../../components/layouts/MainLayout'
 
-export default function ContactPage() {
+export default function PricingPage() {
   return (
     <MainLayout>
-          <h1>Contact Page</h1>
+          <h1>Prcing Page</h1>
 
           <h1 className={'title'}>
             {/* ir a <a href="/about">About</a>{'  '} */}
@@ -15,7 +15,7 @@ export default function ContactPage() {
 
           <p className={'description'}>
             Get started by editing{' '}
-            <code className={'code'}>pages/contact/index.js</code>
+            <code className={'code'}>pages/pricing/index.js</code>
           </p>
     </MainLayout>
   )
